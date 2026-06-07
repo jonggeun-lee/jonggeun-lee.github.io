@@ -1,9 +1,21 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Per-venue badge colors and links for the publications page.
+# Keys must match the `abbr` field in _bibliography/papers.bib.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACL":
+  url: https://www.aclweb.org/
+  color: "#d62728" # red
 
-"Vision":
-  color: "#009f36"
+"EACL":
+  url: https://www.eacl.org/
+  color: "#2ca02c" # green
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#1f77b4" # blue
+
+"KIISE":
+  url: https://www.kiise.or.kr/
+  color: "#e67e22" # orange
+
+"Preprint":
+  color: "#6c757d" # gray
