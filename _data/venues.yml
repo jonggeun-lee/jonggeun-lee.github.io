@@ -1,22 +1,23 @@
 # Per-venue badge colors and links for the publications page.
 # Keys must match the `abbr` field in _bibliography/papers.bib.
-# Palette: muted tones with matched saturation/lightness for a cohesive look.
+# Palette: gradient within the site's purple family (theme color #B509AC),
+# magenta -> violet, so badges read as one set with clear steps.
 
 "ACL":
   url: https://www.aclweb.org/
-  color: "#A1454D" # muted wine
+  color: "#B509AC" # theme magenta
 
 "EACL":
   url: https://www.eacl.org/
-  color: "#428061" # sage green
+  color: "#9934B2" # purple
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#446DA7" # slate blue
+  color: "#793BB0" # violet
 
 "KIISE":
   url: https://www.kiise.or.kr/
-  color: "#AE723D" # bronze
+  color: "#6243B1" # indigo violet
 
 "Preprint":
-  color: "#768293" # cool gray
+  color: "#837E9A" # muted gray-purple
