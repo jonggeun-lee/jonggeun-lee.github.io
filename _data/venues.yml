@@ -19,5 +19,6 @@
   url: https://www.kiise.or.kr/
   color: "#6243B1" # indigo violet
 
-"Preprint":
-  color: "#837E9A" # muted gray-purple
+"ICMLW":
+  url: https://icml.cc/
+  color: "#837E9A" # muted gray-purple (workshop)
