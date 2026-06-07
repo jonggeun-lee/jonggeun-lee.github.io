@@ -1,0 +1,6 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: jonggeun.lee@snu.ac.kr # your email address
+github_username: jonggeun-lee # your GitHub username
+cv_pdf: /assets/pdf/Jonggeun_Lee_CV.pdf # path to your CV PDF file

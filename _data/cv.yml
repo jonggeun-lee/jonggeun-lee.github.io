@@ -1,0 +1,151 @@
+cv:
+  name: Jonggeun Lee
+  label: M.S. Student in Data Science
+  email: jonggeun.lee@snu.ac.kr
+  location: Seoul, Korea
+  image: ""
+  summary: M.S. student at Seoul National University working on multi-modal foundation models, voice assistants, tool-augmented agents, and post-training & reinforcement learning.
+
+  social_networks:
+    - network: GitHub
+      username: jonggeun-lee
+
+  sections:
+    Education:
+      - institution: Seoul National University
+        location: Seoul, Korea
+        url: https://gsds.snu.ac.kr/
+        area: Data Science
+        studyType: M.S.
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - "GPA: 4.08/4.3"
+          - "Advisor: Prof. Yohan Jo"
+          - "Research interests: Multi-modal Foundation Models, Voice Assistants, Tool-augmented Agents, Post-training & Reinforcement Learning"
+
+      - institution: Korea University
+        location: Seoul, Korea
+        url: https://korea.ac.kr/
+        area: Industrial Management Engineering
+        studyType: B.S.
+        start_date: 2019-03
+        end_date: 2024-08
+        highlights:
+          - "GPA: 4.08/4.5 (Major: 4.14/4.5)"
+          - "Dean's List in College of Engineering (GPA: 4.5/4.5; 2023 Fall)"
+          - Graduated with Great Honors (with one semester early graduation)
+
+    Publications:
+      - title: "Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models"
+        authors:
+          - Jonggeun Lee*
+          - Woojung Song*
+          - Jongwook Han
+          - Haesung Pyun
+          - Yohan Jo
+        publisher: "ACL 2026 Main (acceptance rate: 19%)"
+        releaseDate: 2026
+        summary: Proposed PA-Tool, a training-free method that adapts tool schemas to align with models' pretrained knowledge, improving tool-use performance by up to 17% and reducing schema misalignment errors by 80%.
+
+      - title: "SpeakerSleuth: Can LALMs Judge Speaker Consistency across Multi-turn Dialogues?"
+        authors:
+          - Jonggeun Lee
+          - Junseong Pyo
+          - Gyuhyeon Seo
+          - Yohan Jo
+        publisher: "ACL 2026 Main (acceptance rate: 19%)"
+        releaseDate: 2026
+        summary: Introduced a benchmark evaluating whether Large Audio-Language Models can reliably judge speaker consistency across multi-turn conversations, revealing significant biases in prioritizing text over acoustics.
+
+      - title: "SpokenUS: A Spoken User Simulator for Task-Oriented Dialogue"
+        authors:
+          - Jonggeun Lee*
+          - Junseong Pyo*
+          - Jeongmin Park
+          - Yohan Jo
+        publisher: "Under review; Machine Learning for Audio Workshop @ ICML 2026"
+        releaseDate: 2026
+        summary: Developed a spoken user simulator that jointly generates text and speech tokens, modeling realistic spoken behaviors (cross-turn slots, barge-in, disfluency, emotion-aware speech) for task-oriented dialogue systems.
+
+      - title: "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents"
+        authors:
+          - Gyuhyeon Seo
+          - Jungwoo Yang
+          - Junseong Pyo
+          - Nalim Kim
+          - Jonggeun Lee
+          - Yohan Jo
+        publisher: "ICLR 2026 Oral (acceptance rate: 1.13%)"
+        releaseDate: 2026
+        summary: Developed a time-accelerated smart home simulation environment with 600 benchmark episodes, revealing that even top models struggle with temporal scheduling and state verification.
+
+      - title: Quantifying Data Contamination in Psychometric Evaluations of LLMs
+        authors:
+          - Jongwook Han*
+          - Woojung Song*
+          - Jonggeun Lee*
+          - Yohan Jo
+        publisher: "EACL 2026 Findings (acceptance rate: 36.2%)"
+        releaseDate: 2026
+        summary: Proposed a framework to systematically measure data contamination in psychometric evaluations of LLMs, providing evidence of strong contamination in popular inventories.
+
+      - title: "Tool-Augmented Agents: Evolution from Autonomy to Interaction"
+        authors:
+          - Yohan Jo
+          - Jonggeun Lee
+        publisher: "Korean Institute of Information Scientists and Engineers, Vol. 43, No. 11, pp. 14-25"
+        releaseDate: 2025
+        summary: Comprehensive survey examining the evolution of tool-augmented agents, focusing on the shift from autonomous capabilities to interactive paradigms in human-centered interaction.
+
+    Experience:
+      - company: Samsung Electronics
+        position: Software Engineering Intern, ML Brain SW Development Team
+        location: Hwasung, Korea
+        start_date: 2024-03
+        end_date: 2024-06
+        highlights:
+          - Research on Retrieval Augmented Generation (RAG) for internal chatbot system
+          - Fine-tuned retriever and re-ranker using contrastive learning
+          - "Improved internal document retrieval performance from 20% to 71% Hit@1 for user queries"
+
+      - company: KAIST, Data Science and Artificial Intelligence Lab
+        position: Undergraduate Research Intern
+        location: Daejeon, Korea
+        start_date: 2023-12
+        end_date: 2024-02
+        highlights:
+          - "Advisor: Prof. Chanyoung Park"
+          - Conducted literature review and implementation of representative papers in recommender systems
+          - Explored LLM-based recommendation approaches (LLM4Rec, TALLRec)
+
+      - company: LG AI Research, EXAONE Lab
+        position: Research Intern
+        location: Seoul, Korea
+        start_date: 2023-07
+        end_date: 2023-08
+        highlights:
+          - "Advisor: Dr. Hyeongu Yun"
+          - Built a multi-modal (vision + text) data extraction pipeline to curate large-scale pretraining data for the EXAONE foundation model
+          - Combined vision-based layout detection models with rule-based parsing to extract structured text, tables, and images from PDF documents
+          - Produced 73GB+ of pretraining-grade data, validating scalability toward web-scale corpora
+
+      - company: Kounosoft
+        position: Software Engineering Intern
+        location: Seoul, Korea
+        start_date: 2023-01
+        end_date: 2023-02
+        highlights:
+          - "Advisor: Dr. Woongmyung Kim"
+          - Constructed Arduino-related Q&A dataset for education platform
+          - Performed supervised fine-tuning of KoGPT2 model on the custom dataset
+          - Developed complete chat interface and system using Vue3.js, FastAPI
+
+    Projects:
+      - name: Knowledge Graph Construction from Messenger Conversations
+        summary: Industry-academic research project with Samsung Electronics on dynamically extracting user information from multi-session messenger conversations and constructing knowledge graphs for hyper-personalization.
+        highlights:
+          - Fine-tuned Llama3-8B-Instruct model for knowledge graph extraction from messenger dialogues
+          - "Achieved 29.4% higher F1-Score than GPT-4o on the extraction benchmark"
+        start_date: 2024-08
+        end_date: 2024-12

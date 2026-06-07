@@ -1,0 +1,6 @@
+# This file maps coauthor last names (lowercase) to their homepage URLs,
+# used to render links on the publications page. Example:
+#
+# "song":
+#   - firstname: ["Woojung", "W."]
+#     url: https://example.com
