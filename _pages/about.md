@@ -30,4 +30,4 @@ I am a Master's student in Data Science at [Seoul National University](https://g
 
 I am particularly interested in building conversational agents that interact with the world — through tools, speech, and environments. My recent work spans adapting tool schemas to language models (ACL 2026), evaluating speaker consistency in large audio-language models (ACL 2026), and simulating spoken users for task-oriented dialogue.
 
-Before joining SNU, I received my B.S. in Industrial Management Engineering from [Korea University](https://korea.ac.kr/), graduating with great honors. I have also worked as an intern at **Samsung Electronics** (RAG for internal chatbot systems), **LG AI Research, EXAONE Lab** (multi-modal pretraining data pipelines), and **KAIST DSAIL** (recommender systems).
+Before joining SNU, I received my B.S. in Industrial Management Engineering from [Korea University](https://korea.ac.kr/), graduating with great honors. I have also worked as an intern at **Samsung Electronics** (RAG for internal chatbot systems) and **LG AI Research, EXAONE Lab** (multi-modal pretraining data pipelines).
